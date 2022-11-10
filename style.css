@@ -101,4 +101,43 @@ h1,h2,p{
     padding-top: 3.5em;
   }
   
+.sites{
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+    margin: 2em;
+}
  
+
+  
+.fa-facebook{
+    color: #6691e8;
+    margin-right: 5px;
+    width: 2em;
+    height: 2em;
+     
+}
+
+
+
+.fa-linkedin{
+    color: #0b87ca;
+    margin-right: 5px;
+ 
+}
+
+.fa-square-twitter{
+    color: #71c3f6;
+    margin-right: 5px;
+    
+}
+
+
+.fa-instagram{
+    color:#db479b;
+}
+
+
+.final-footer{
+    margin-bottom: 2em;
+}
