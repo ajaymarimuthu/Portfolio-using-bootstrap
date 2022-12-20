@@ -13,6 +13,14 @@ body{
     left: 0;
 } */
 
+/* .img-fluid {
+  width: auto;
+  height: auto;
+} */
+
+ 
+
+
  
 h1,h2,p{
     color: white;
@@ -31,8 +39,11 @@ h1,h2,p{
 .about-section{
     margin-top: 10em;
     display: flex;
+    
     flex-direction: column;
     justify-content: center;
+ 
+     
     align-items: center;
     /* justify-items: center; */
     text-align: center;
@@ -52,6 +63,7 @@ h1,h2,p{
 
  .container-fluid{
     max-width: 85%;
+    
     /* border: 2px solid red; */
  }
 
@@ -141,3 +153,138 @@ h1,h2,p{
 .final-footer{
     margin-bottom: 2em;
 }
+
+
+.nav-row{
+  /* border: 5px solid red; */
+}
+.about-border{
+
+  /* border: 2px solid yellow; */
+}
+.skills-border{
+  /* border: 2px solid lightskyblue; */
+}
+
+.projects-border{
+  /* border: 8px solid white; */
+}
+
+.grid-border-1{
+  /* border: 7px solid orange; */
+}
+
+.grid-border-2{
+  /* border: 7px solid red; */
+}
+
+.grid-border-3{
+  /* border: 7px solid blue; */
+}
+
+.grid-border-4{
+  /* border: 7px solid yellowgreen; */
+}
+
+.grid-border-5{
+  /* border:7px solid cyan; */
+}
+.grid-border-6{
+  /* border: 7px solid purple; */
+}
+ 
+.card{
+  margin: 0 auto;
+}
+
+.footer-border{
+  /* border: 5px solid red; */
+}
+
+
+
+/* @media screen and (max-width:200px) {
+
+  .projects-flex{
+    display: flex;
+    flex-direction: column;
+  
+ 
+  }
+
+  .card{
+   
+     width: 25%
+   }
+ 
+} */
+
+
+@media screen and (max-width:280px) {
+
+  .projects-flex{
+    display: flex;
+    flex-direction: column;
+  
+ 
+  }
+
+  .card{
+   
+     width: 1rem;
+   }
+ 
+}
+
+
+@media screen and (min-width:320px) {
+
+  .projects-flex{
+    display: flex;
+    flex-direction: row;
+  
+ 
+  }
+
+  .card{
+   
+     width: rem;
+   }
+ 
+}
+
+/* 
+@media screen and (min-width:320px) {
+
+  .projects-flex{
+    display: flex;
+    flex-direction: column;
+  
+ 
+  }
+
+  .card{
+   
+     width: 12rem;
+   }
+ 
+} */
+
+
+/* @media screen and (max-width:420px) {
+
+  .projects-flex{
+    display: flex;
+    flex-direction: column;
+  
+ 
+}
+
+.card{
+ 
+  width: 14rem;
+}
+ 
+} */
+
+
